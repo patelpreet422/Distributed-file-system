@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import sys
-import SimpleXMLRPCServer
+from xmlrpc.server import SimpleXMLRPCServer 
 import logging
 import time
 import xmlrpclib
